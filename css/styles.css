@@ -286,6 +286,41 @@ header {
   }
 }
 
+@media (min-width: 250px) and (max-width: 680px) {
+  
+  .hero {
+    width: 100%;
+    height: 100%;
+  }
+  .hero-text h1 {
+    font-size: 45px;
+  }
+
+  .hero-text a {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .hero-text a.ctaa {
+    margin: 0;
+  }
+
+  .hero-img {
+    width: 100%;  
+    margin: auto;
+  }
+
+  .hero-img img{
+    width: 80%;  
+  }
+
+
+}
+
 
 @keyframes floating {
   0% { transform: translate(0, 0px); }
