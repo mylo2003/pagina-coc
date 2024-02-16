@@ -8,7 +8,7 @@ menu.onclick = () => {
 
 const sr = ScrollReveal ({
   distance: '65px',
-  dutarion: 1000,
+  duration: 1000,
   delay: 450,
   reset: true
 }); 
